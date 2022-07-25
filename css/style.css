@@ -41,3 +41,31 @@ li.active {
     color: #3367d6;
     border-bottom: 2px solid #3367d6;
 }
+
+/* main */
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 8em;
+}
+
+.container h2 {
+    margin-top: 40px;
+}
+
+p {
+    margin: 2em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3367d6;
+}
+
+ol {
+    padding-left: 1.1em;
+}
+
+.container li {
+    margin: 0.8em 0;
+}
