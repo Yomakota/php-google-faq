@@ -31,6 +31,7 @@ $faq = [
             </ol>
          <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
         <h3>Stabilire il paese associato al tuo account</h3>
+        <p>Quando crei un nuovo Account Google, lo associamo a un paese in base a dove è stato creato. Per quanto riguarda gli account creati almeno un anno fa, usiamo il paese da cui accedi solitamente ai servizi Google, in genere i servizi in cui hai trascorso più tempo nell'ultimo anno.</p>
         <p>I viaggi frequenti solitamente non influiscono sul paese associato al tuo account. Se ti trasferisci in un altro paese, potrebbe occorrere circa un anno per aggiornare l'associazione del paese.</p>
         <p>Se il paese associato al tuo account non corrisponde al tuo paese di residenza, il motivo potrebbe essere la differenza tra il paese in cui lavori e il paese in cui risiedi, l'installazione di una rete privata virtuale (VPN) per mascherare il tuo indirizzo IP oppure la residenza vicino a un confine territoriale. <a target='_blank' href='https://policies.google.com/country-association-contact-us'>Contattaci</a> se ritieni che il paese associato al tuo account sia sbagliato.</p>",
     ],
@@ -51,6 +52,10 @@ $faq = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Google FAQ</title>
 </head>
@@ -98,8 +103,9 @@ $faq = [
                 </ul>
             </div>
             <div class="footer-right">
+                <i class="fas fa-globe"></i>
                 <select name="" id="">
-                    <option value="">Italian</option>
+                    <option value="">Italiano</option>
                     <option value="">English</option>
                     <option value="">Deutsch</option>
                     <option value="">Français</option>

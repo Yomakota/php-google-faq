@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* header */
 .header-container {
     position: fixed;
@@ -53,12 +57,15 @@
     padding-top: 8em;
 }
 
-.container h2 {
+.container h2,
+h3 {
     margin-top: 60px;
+    font-weight: 400;
 }
 
 p {
     margin: 2em 0;
+    line-height: 1.6em;
 }
 
 a {
@@ -104,4 +111,5 @@ footer {
 
 .footer-right i {
     padding-right: 0.7em;
+    color: #5bc6fd;
 }
