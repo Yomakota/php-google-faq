@@ -65,11 +65,11 @@ $faq = [
             </div>
             <div class="header-bottom">
                 <ul class="header-list">
-                    <li>Introduzione</li>
-                    <li>Norme sulla privacy</li>
-                    <li>Termini di servizio</li>
-                    <li>Tecnologie</li>
-                    <li class="active">Domande frequenti</li>
+                    <li> <a href="#"> Introduzione </a></li>
+                    <li> <a href="#"> Norme sulla privacy </a></li>
+                    <li> <a href="#"> Termini di servizio </a></li>
+                    <li> <a href="#"> Tecnologie </a></li>
+                    <li><a class="active" href="#">Domande frequenti</a></li>
                 </ul>
             </div>
         </div>
@@ -86,3 +86,25 @@ $faq = [
         </div>
     </main>
     <!-- /main -->
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <ul>
+                    <li><a href="">Google</a></li>
+                    <li><a href="">Tutto su Google</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Termini</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <select name="" id="">
+                    <option value="">Italian</option>
+                    <option value="">English</option>
+                    <option value="">Deutsch</option>
+                    <option value="">Français</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
